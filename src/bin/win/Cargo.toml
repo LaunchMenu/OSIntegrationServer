@@ -1,0 +1,12 @@
+[package]
+edition = "2018"
+name = "win"
+version = "0.1.0"
+
+[dependencies]
+crossbeam = "0.8"
+json = "0.12.4"
+windows = "0.18.0"
+
+[build-dependencies]
+windows = "0.18.0"
